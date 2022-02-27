@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.timedate{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#watch{
+    text-align: center;
+    width: 40vw;
+    height: 20vh;
+    margin: 80px ;
+    padding: 100px 80px 80px 80px;
+    font-size: 100px;
+    background-color: rgb(80, 80, 170);
+    color: white;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+
+#startBtn{
+    background-color: rgb(80, 80, 170);
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+#stopBtn{
+    background-color: rgb(80, 80, 170);
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+#restartBtn{
+    background-color: rgb(80, 80, 170);
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
