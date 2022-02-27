@@ -78,14 +78,10 @@ Restart.addEventListener('click', () => {
 })
 
 stopBtn.addEventListener('click', () => {
-  console.log("You click on stopbtn");
   let mtext = minutes.innerText;
   let stext = seconds.innerText;
   let mltext = milliseconds.innerText;
-  console.log(mtext);
-  console.log(stext);
-  console.log(mltext);
-
+  
   watch.innerHTML = `${mtext}:${stext}:${mltext}`;
 
 })

@@ -1,8 +1,8 @@
 let time = document.getElementById('time');
-let dmy=document.getElementById('day');
+let dmy = document.getElementById('day');
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const week=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-   
+const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 
 
 setInterval(() => {
@@ -11,10 +11,10 @@ setInterval(() => {
     var minute = date.getMinutes();
     var second = date.getSeconds();
 
-    var tday=date.getDate();
-    var day=date.getDay();
-    var month=date.getMonth();
-    var year=date.getFullYear();
+    var tday = date.getDate();
+    var day = date.getDay();
+    var month = date.getMonth();
+    var year = date.getFullYear();
 
     let ap;
     if (hour >= 12) {
@@ -40,7 +40,7 @@ setInterval(() => {
         minute = "0" + minute;
     }
 
-    dmy.innerHTML=`<span>${week[day]} ${tday} ${months[month]}  ${year}</span> |`;
+    dmy.innerHTML = `<span>${week[day]} ${tday} ${months[month]}  ${year}</span> |`;
     time.innerHTML = ` <span>${hour}:${minute}:${second} ${ap}</span>`;
 
 }, 1000);
