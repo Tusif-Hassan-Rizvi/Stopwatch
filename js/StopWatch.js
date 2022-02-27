@@ -6,8 +6,8 @@ let startBtn = document.getElementById('startBtn');
 let stopBtn = document.getElementById('stopBtn');
 let Restart = document.getElementById('restartBtn');
 
-stopBtn.style.display='none';
-Restart.style.display='none';
+stopBtn.style.display = 'none';
+Restart.style.display = 'none';
 
 
 
@@ -66,9 +66,9 @@ startBtn.addEventListener('click', () => {
 
 
   }, 100);
-stopBtn.style.display='block';
-Restart.style.display='block';
-startBtn.style.display='none';
+  stopBtn.style.display = 'block';
+  Restart.style.display = 'block';
+  startBtn.style.display = 'none';
 
 
 })
@@ -81,7 +81,7 @@ stopBtn.addEventListener('click', () => {
   let mtext = minutes.innerText;
   let stext = seconds.innerText;
   let mltext = milliseconds.innerText;
-  
+
   watch.innerHTML = `${mtext}:${stext}:${mltext}`;
 
 })

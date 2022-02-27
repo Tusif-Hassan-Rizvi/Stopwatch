@@ -6,15 +6,15 @@ const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 
 
 setInterval(() => {
-    var date = new Date();
-    var hour = date.getHours();
-    var minute = date.getMinutes();
-    var second = date.getSeconds();
+    let date = new Date();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let second = date.getSeconds();
 
-    var tday = date.getDate();
-    var day = date.getDay();
-    var month = date.getMonth();
-    var year = date.getFullYear();
+    let tday = date.getDate();
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getFullYear();
 
     let ap;
     if (hour >= 12) {
