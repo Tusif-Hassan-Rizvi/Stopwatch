@@ -5,11 +5,6 @@ Stopwatch
 # Project Description
 Stopwatch using HTML CSS and JavaScript.
 
-# Developer
-Tusif Hassan Rizvi\
-tusifhassanrizvi@gmail.com
-
-
 # Screenshot
 
 ![App Screenshot](img/img1.png)
