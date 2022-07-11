@@ -3,7 +3,7 @@ Stopwatch
 
 
 # Project Description
-Stopwatch using HTML CSS and JavaScript.
+Stopwatch using `HTML` `CSS` and `JavaScript`.
 
 # Screenshot
 
